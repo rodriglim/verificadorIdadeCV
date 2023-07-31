@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivel.css">
+    <title>Verificar de Idade</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            Verificador de Idade
+        </header>
+
+        <section>
+            <div class="dataNasc">
+                <span>
+                    Ano de Nascimento:
+                    <input type="number" id="dataNasID">
+                </span>
+            </div>
+
+            <div class="sexo-input">
+                Sexo:
+                <span class="masculino">
+                    <input type="radio" name="sexo" id="masculino">
+                    Masculino
+                </span>
+                <span class="feminino">
+                    <input type="radio" name="sexo" id="feminino">
+                    Feminino
+                </span>
+            </div>
+
+            <p id="result">Preencha os campos para verificar</p>
+
+            <button onclick="$enviar()">Verificar</button>
+
+            <div class="circle-img">
+                <img id="img-id">
+            </div>
+        </section>
+
+        <footer>
+            &copy; CursoemVideo
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
